@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube-clone</title>
+    <link rel="icon" href="data:image/png;base64,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">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+    <aside>
+        <div>home</div>
+    </aside>
+    <header class="page-header">
+        <div class="logo-section">
+            <i class="fas fa-bars"></i>
+            <div class="logo-img">
+                <img src="./images/youtube-1837872_1280.png" alt="logo">
+                <span>youtube</span>
+            </div>
+        </div>
+        <div class="search-bar">
+            <form>
+                <input id="txt" type="text" placeholder="search" required>
+            </form>
+            <button id="btn" class="btn-search"><i class="fas fa-search"></i></button>
+            <span class="mic"><i class="fas fa-microphone"></i></span>
+        </div>
+        <div class="more-section">
+            <div class="camera">
+                <i class="fas fa-video"></i>
+            </div>
+            <div class="more-apps">
+                <i class="fas fa-th"></i>
+            </div>
+            <div class="notifications">
+                <i class="far fa-bell"></i>
+            </div>
+            <div class="profile">
+                <img class="profile-img" src="./images/Magicut22-07-2021_14_08_21.png" alt="profile">
+            </div>
+        </div>
+    </header>
+  <nav class="nav-bar" style="display: none;">
+    <div class="home">
+        <i class="fas fa-home"></i>
+        <span>home</span>
+    </div>
+    <div class="explore">
+        <i class="far fa-compass"></i>
+        <span>Explore</span>
+    </div>
+    <div class="subscriptions">
+        <i class="far fa-caret-square-right"></i>
+        <span>Subscriptions</span>
+    </div>
+    <div class="library">
+        <i class="fab fa-youtube"></i>
+        <span>Library</span>
+    </div>
+  </nav>
+ <main class="main-section">
+  <div class="topics" style="display: none;">
+      <div>all</div>
+      <div onclick="searchVideo('css')">css</div>
+      <div onclick="searchVideo('mixins')">mixins</div>
+      <div onclick="searchVideo('computer')">computer</div>
+      <div onclick="searchVideo('html')">html</div>
+      <div>javascript</div>
+      <div>algorithoms</div>
+      <div>machin</div>
+      <div>data</div>
+      <div>python</div>
+      <div>internship</div>
+      <div>freelancing</div>
+  </div>
+ 
+<div class="video_player_container">
+    <div class="video_frame">
+    <iframe width="436" height="245" src="https://www.youtube.com/embed/Ciu5yQYwJgY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video_list">
+        <ul>
+            <li>
+        <a href="https://www.youtube.com/watch?v=9--mxcX2bw0" target="_blank">
+            <div class="video-panel" data-x='mohan'>
+              <div class="poster">
+                  <img src="https://i.ytimg.com/vi/9--mxcX2bw0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAWiOPWiAB8eYtUIXp31ahXnNtGGg" alt="poster">
+              </div>
+              <div class="description">
+                  <h3>Gradient Text Stroke With CSS</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </div>
+          </div>
+      </a>
+      </li>
+
+
+      </ul>
+    </div>
+</div>
+
+</main>
+  <script src="app.js"></script>
+</body>
+</html>
